@@ -27,4 +27,4 @@ const addArrays =(arr,arr2)=>{
   let total =( Number(arr.join(''))+Number(arr2.join(''))).toString().split('').map(i=>+i);
   return total;
 }
-console.log(addArrays([3,2,9],[1,2]));
+console.log(addArrays([5,2,9],[1,2]));
